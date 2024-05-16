@@ -1,0 +1,2 @@
+arecord -f cd -t wav -D default output.wav
+// to stop the recording press "Ctrl+c".

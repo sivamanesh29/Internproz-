@@ -1,0 +1,7 @@
+#playing the audio files using python .
+import pygame
+pygame.mixer.init()
+pygame.mixer.music.load('c:/users/dolak/Music/Eyy Bidda Idhi Naa Adda.mp3')
+pygame.mixer.music.play()
+while pygame.mixer.music.get_busy():
+    pygame.time.Clock().tick(10)
